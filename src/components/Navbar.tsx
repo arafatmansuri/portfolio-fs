@@ -43,6 +43,7 @@ const Navbar: React.FC = () => {
     {
       name: "Resume",
       href: "https://drive.google.com/file/d/15sbiT1mKeEAHyYgK5HG1kUJirecgD4xT/view?usp=sharing",
+      blank: true,
     },
     { name: "Contact", href: "#contact" },
   ];
@@ -82,6 +83,7 @@ const Navbar: React.FC = () => {
                 >
                   <a
                     href={link.href}
+                    target={link.blank ? "_blank" : "_self"}
                     className="text-slate-700 hover:text-blue-600 dark:text-slate-300 dark:hover:text-blue-400 font-medium transition-colors"
                   >
                     {link.name}
