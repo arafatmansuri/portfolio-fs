@@ -1,6 +1,6 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { ChevronDown, Github, Linkedin, Twitter } from 'lucide-react';
+import { motion } from "framer-motion";
+import { ChevronDown, Github, Linkedin, Twitter } from "lucide-react";
+import React from "react";
 
 const HeroSection: React.FC = () => {
   return (
@@ -24,7 +24,7 @@ const HeroSection: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            Building modern web applications with{' '}
+            Building modern web applications with{" "}
             <span className="bg-gradient-to-r from-blue-600 to-indigo-500 dark:from-blue-500 dark:to-indigo-400 bg-clip-text text-transparent">
               passion and precision
             </span>
@@ -36,8 +36,9 @@ const HeroSection: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            I'm a fresher full-stack developer with expertise in Java, JavaScript, React, Node.js, 
-            and more. Currently focused on building responsive and performant web applications.
+            I'm a fresher full-stack developer with expertise in Java,
+            JavaScript, React, Node.js, and more. Currently focused on building
+            responsive and performant web applications.
           </motion.p>
 
           <motion.div
@@ -49,8 +50,12 @@ const HeroSection: React.FC = () => {
             <a href="#projects" className="btn btn-primary">
               View My Projects
             </a>
-            <a href="#contact" className="btn btn-secondary">
-              Get In Touch
+            <a
+              href="https://drive.google.com/file/d/1lu3K3Hrs_8qpIcCLCaRegxl0Je8jQDbo/view?usp=sharing"
+              target="_blank"
+              className="btn btn-secondary"
+            >
+              Get My Resume
             </a>
           </motion.div>
 
@@ -94,10 +99,18 @@ const HeroSection: React.FC = () => {
           className="absolute bottom-10 left-1/2 transform -translate-x-1/2 hidden md:block"
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 1, repeat: Infinity, repeatType: "reverse" }}
+          transition={{
+            duration: 0.6,
+            delay: 1,
+            repeat: Infinity,
+            repeatType: "reverse",
+          }}
         >
           <a href="#about" aria-label="Scroll down">
-            <ChevronDown size={28} className="text-slate-400 dark:text-slate-500" />
+            <ChevronDown
+              size={28}
+              className="text-slate-400 dark:text-slate-500"
+            />
           </a>
         </motion.div>
       </div>
