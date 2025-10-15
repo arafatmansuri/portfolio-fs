@@ -1,5 +1,5 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
+import React from "react";
 
 const SkillsSection: React.FC = () => {
   const containerVariants = {
@@ -22,28 +22,32 @@ const SkillsSection: React.FC = () => {
   };
 
   const skills = [
-    { name: 'JavaScript', category: 'language' },
-    { name: 'TypeScript', category: 'language' },
-    { name: 'Java', category: 'language' },
-    { name: 'React', category: 'frontend' },
-    { name: 'HTML5', category: 'frontend' },
-    { name: 'CSS3', category: 'frontend' },
-    { name: 'Tailwind CSS', category: 'frontend' },
-    { name: 'Node.js', category: 'backend' },
-    { name: 'Express.js', category: 'backend' },
-    { name: 'MongoDB', category: 'database' },
-    { name: 'MySQL', category: 'database' },
-    { name: 'RESTful APIs', category: 'backend' },
-    { name: 'Git', category: 'tool' },
-    { name: 'npm', category: 'tool' },
+    { name: "JavaScript", category: "language" },
+    { name: "TypeScript", category: "language" },
+    { name: "Java", category: "language" },
+    { name: "React", category: "frontend" },
+    { name: "HTML5", category: "frontend" },
+    { name: "CSS3", category: "frontend" },
+    { name: "Tailwind CSS", category: "frontend" },
+    { name: "Node.js", category: "backend" },
+    { name: "Express.js", category: "backend" },
+    { name: "MongoDB", category: "database" },
+    { name: "MySQL", category: "database" },
+    { name: "PostgreSQL", category: "database" },
+    { name: "Prisma", category: "tool" },
+    { name: "RESTful APIs", category: "backend" },
+    { name: "Git", category: "tool" },
+    { name: "npm", category: "tool" },
+    { name: "pnpm", category: "tool" },
+    { name: "Postman", category: "tool" },
   ];
 
   const categories = [
-    { id: 'language', name: 'Languages' },
-    { id: 'frontend', name: 'Frontend' },
-    { id: 'backend', name: 'Backend' },
-    { id: 'database', name: 'Database' },
-    { id: 'tool', name: 'Tools' },
+    { id: "language", name: "Languages" },
+    { id: "frontend", name: "Frontend" },
+    { id: "backend", name: "Backend" },
+    { id: "database", name: "Database" },
+    { id: "tool", name: "Tools" },
   ];
 
   return (

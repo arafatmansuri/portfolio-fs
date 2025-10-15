@@ -51,7 +51,7 @@ const HeroSection: React.FC = () => {
               View My Projects
             </a>
             <a
-              href="https://drive.google.com/file/d/1lu3K3Hrs_8qpIcCLCaRegxl0Je8jQDbo/view?usp=sharing"
+              href="https://drive.google.com/file/d/1DkxgQjE3k8lLvbPzxLCFHLnpd19NwZsO/view?usp=sharing"
               target="_blank"
               className="btn btn-secondary"
             >
